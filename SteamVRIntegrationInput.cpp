@@ -70,16 +70,7 @@ void SteamVRIntegrationInput::UpdateButtonsState(vJoyIntegration* vjoy) {
 
     //
     // Scheme of connection right controller to VJoy buttons
-    // Trigger - 1;
-    // TriggerValue - Y;
-    // Grip - 2;
-    // GripValue - RY
-    // Trackpad - 3;
-    // JoyStick - 4;
-    // Button A - 5;
-    // Button B - 6;
-    // SystemButton - 7;
-    // MenuButton - 8;
+    // see: https://github.com/maxdurov/SteamVR_Steering_Wheel/blob/main/images/prevy_controller_right.png
 
     
     vr::VRInput()->UpdateActionState(&this->actionSet, sizeof(this->actionSet), 1);
@@ -145,17 +136,8 @@ void SteamVRIntegrationInput::UpdateButtonsState(vJoyIntegration* vjoy) {
     this->rightController.MenuButton = state;
 
     //
-// Scheme of connection left controller to VJoy buttons
-// Trigger - 11;
-// TriggerValue - Z;
-// Grip - 12;
-// GripValue - RX
-// Trackpad - 13;
-// JoyStick - 14;
-// Button A - 15;
-// Button B - 16;
-// SystemButton - 17;
-// MenuButton - 18;
+    // Scheme of connection left controller to VJoy buttons
+    // see: https://github.com/maxdurov/SteamVR_Steering_Wheel/blob/main/images/prevy_controller_left.png
 
     vr::VRInput()->GetPoseActionDataRelativeToNow(this->vrControllerHandlers.Pose, vr::TrackingUniverseStanding, 0, &pose, sizeof(pose), this->vrControllerHandlers.SelectController.left);
     this->leftController.pos = pose;
