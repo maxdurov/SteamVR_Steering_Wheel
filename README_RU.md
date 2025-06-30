@@ -34,7 +34,7 @@
 ## Установка
 
 1. Установите SteamVR и vJoy  
-2. Скачайте последнюю [версию](link)  
+2. Скачайте последнюю [версию](https://github.com/maxdurov/SteamVR_Steering_Wheel/releases)  
 3. Распакуйте файлы в удобное место  
 4. Запустите `SteamVR Steering Wheel.exe`  
 5. Подключите VR-шлем  
