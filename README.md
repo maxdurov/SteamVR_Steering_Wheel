@@ -35,7 +35,7 @@ Tested on Windows 10 and 11. Correct operation on Windows 7 is **not guaranteed*
 ## How to Install
 
 1. Install SteamVR and vJoy  
-2. Download the latest [version](link)  
+2. Download the latest [version](https://github.com/maxdurov/SteamVR_Steering_Wheel/releases)  
 3. Extract the files to a folder  
 4. Run `SteamVR Steering Wheel.exe`  
 5. Connect your VR headset  
