@@ -2,7 +2,7 @@
 
 ![image](https://github.com/maxdurov/SteamVR_Steering_Wheel/blob/main/images/overview.gif?raw=true)
 
-[Документация на русском]()
+[Документация на русском](https://github.com/maxdurov/SteamVR_Steering_Wheel/blob/main/README_RU.md)
 
 This project integrates a steering wheel into VR and allows you to play games like Euro Truck Simulator 2 (ETS2), American Truck Simulator (ATS), and others using it.
 
