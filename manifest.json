@@ -1,0 +1,96 @@
+{
+    "actions": [
+        {
+            "name": "/actions/main/in/triggerclick",
+            "requirement": "suggested",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/main/in/triggervalue",
+            "requirement": "suggested",
+            "type": "vector1"
+        },
+        {
+            "name": "/actions/main/in/gripclick",
+            "requirement": "suggested",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/main/in/gripvalue",
+            "requirement": "suggested",
+            "type": "vector1"
+        },
+        {
+            "name": "/actions/main/in/trackpadclick",
+            "requirement": "suggested",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/main/in/trackpadtouch",
+            "requirement": "suggested",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/main/in/trackpadposition",
+            "requirement": "suggested",
+            "type": "vector2"
+        },
+        {
+            "name": "/actions/main/in/joystickclick",
+            "requirement": "suggested",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/main/in/joystickposition",
+            "requirement": "suggested",
+            "type": "vector2"
+        },
+        {
+            "name": "/actions/main/in/buttona",
+            "requirement": "suggested",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/main/in/buttonb",
+            "requirement": "suggested",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/main/in/systembutton",
+            "requirement": "suggested",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/main/in/menubutton",
+            "requirement": "suggested",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/main/out/haptic",
+            "requirement": "suggested",
+            "type": "vibration"
+        },
+        {
+            "name": "/actions/main/in/pose",
+            "type": "pose"
+        }
+    ],
+    "action_sets": [
+        {
+            "name": "/actions/main",
+            "usage": "leftright"
+        }
+    ],
+    "default_bindings": [
+        {
+            "controller_type": "oculus_touch",
+            "binding_url": "/bindings/oculus_touch.json"
+        }
+    ],
+    "localization": [
+        {
+            "language_tag": "en_us",
+            "/actions/main": "Wheel Steering Wheel"
+        }
+    ]
+}
