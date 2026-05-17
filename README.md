@@ -7,9 +7,12 @@
 This project integrates a steering wheel into VR and allows you to play games like Euro Truck Simulator 2 (ETS2), American Truck Simulator (ATS), and others using it.
 
 ---
+## LICENSE
+
+[Apache-2.0 license](https://www.apache.org/licenses/LICENSE-2.0)
 
 ## Requirements
-
+---
 This program works with SteamVR and vJoy. You need to install the following:
 
 - SteamVR  
